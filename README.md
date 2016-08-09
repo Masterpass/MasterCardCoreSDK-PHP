@@ -15,7 +15,7 @@ Pre-Requisites for using PHP MasterCard Core SDK:
  ```
  {
     "require": {
-      "Masterpass/MasterCardCoreSDK-PHP":"1.1.0"
+      "masterpass/mastercardcoresdk":"1.1.0"
     }
  }
 ```
