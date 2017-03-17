@@ -15,7 +15,7 @@ Pre-Requisites for using PHP MasterCard Core SDK:
  ```
  {
     "require": {
-      "masterpass/mastercardcoresdk":"1.1.0"
+      "masterpass/mpasscoresdk":"1.2.0"
     }
  }
 ```
@@ -23,6 +23,38 @@ Pre-Requisites for using PHP MasterCard Core SDK:
 In order to import this package in your application, you need to use following composer command after installing composer locally:
 
 > composer update
+
+## Usage
+
+Set configurations for private key and consumer key to call API: 
+
+```
+
+MasterCardApiConfig::$consumerKey = "YOUR_CONSUMER_KEY";
+MasterCardApiConfig::$privateKey = "YOUR_PRIVATE_KEY";
+MasterCardApiConfig::setSandBox(true); // For sandbox environment. By default SANDBOX environment is set as true, Set sandbox to false to use Production environment
+
+```
+
+Customize default SSL settings for the SDK through Configuration class using following code: 
+[You may get SSL Exception if there is no already configured ssl certificate file exists locally or in php.ini]
+Note: SSL Verification is set to True by default. Do NOT set it to false in production code, otherwise you would face multiple types of cryptographic attacks. 
+
+```
+
+$conf = new Configuration();
+$conf->setSSLVerification("C:\\Users\\Documents\\cert.pem");
+Configuration::setDefaultConfiguration($conf);
+
+```
+
+Example : Api Call
+
+```
+
+$RequestTokenResponse = RequestTokenApi::create(<URL>);
+
+```
 
 You can get more information about integrating MasterCard Merchant Checkout Service SDK from MasterCard Developer Zone - 
 ##### Merchant Integration section. 

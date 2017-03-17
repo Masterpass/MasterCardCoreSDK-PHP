@@ -1,5 +1,18 @@
 # Change Log
 
+## Version 1.2.0
+
+_2017-03-17_
+
+### Features
+* Provided configuration for open ssl.
+
+### Changes
+* Updated README file 
+	1. Core SDK composer package name
+	2. Added Usage section with code snippets for configurations 
+
+
 ## Version 1.1.0
 
 _2016-08-09_
