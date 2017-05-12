@@ -26,6 +26,8 @@ In order to import this package in your application, you need to use following c
 
 ## Usage
 
+##### Note: Refer to mastercard developer zone for documentation on SDKs for implementation reference and avoid potential break in your existing code if you upgrade with higher version.
+
 Set configurations for private key and consumer key to call API: 
 
 ```
@@ -56,5 +58,5 @@ $RequestTokenResponse = RequestTokenApi::create(<URL>);
 
 ```
 
-You can get more information about integrating MasterCard Merchant Checkout Service SDK from MasterCard Developer Zone - 
+You can get more information about integrating MasterCard Merchant Checkout SDK from MasterCard Developer Zone - 
 ##### Merchant Integration section. 
