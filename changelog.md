@@ -1,5 +1,14 @@
 # Change Log
 
+## Version 1.3.0
+
+_2017-05-12_
+
+### Features
+* Namespace Implementation 
+* PHP 7 Support
+  
+	
 ## Version 1.2.0
 
 _2017-03-17_

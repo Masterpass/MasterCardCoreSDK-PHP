@@ -1,6 +1,6 @@
 {
 	"name": "masterpass/mpasscoresdk",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"description": "PHP Core SDK for use with Masterpass Merchant Checkout Service SDK on MasterCard Developer Zone",
 	"homepage": "https://developer.mastercard.com",
 	"require": {
