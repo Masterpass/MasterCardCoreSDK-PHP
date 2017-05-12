@@ -7,6 +7,8 @@ Pre-Requisites for using PHP MasterCard Core SDK:
  *  PHP 5.5 or higher
  *  Download MasterCardCoreSDK-PHP phar file
  
+ ##### Note: Refer to mastercard developer zone for documentation on SDKs for implementation reference and avoid potential break in your existing code if you upgrade with higher version.
+ 
  This phar can be downloaded from github directly or by using composer dependency.
  
  If you do not have composer installed you can download it from https://getcomposer.org/
@@ -25,8 +27,6 @@ In order to import this package in your application, you need to use following c
 > composer update
 
 ## Usage
-
-##### Note: Refer to mastercard developer zone for documentation on SDKs for implementation reference and avoid potential break in your existing code if you upgrade with higher version.
 
 Set configurations for private key and consumer key to call API: 
 
