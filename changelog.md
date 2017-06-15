@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 2.0.0
+
+_2017-06-12_
+
+### Changes
+* Removed Token Services
+
 ## Version 1.3.0
 
 _2017-05-12_
