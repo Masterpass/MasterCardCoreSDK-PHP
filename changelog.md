@@ -1,5 +1,20 @@
 # Change Log
 
+## Version 2.1.0
+
+_2017-11-13_
+
+### Changes
+* Provided utility to decrypt encrypted payment data
+
+## Version 2.0.0
+
+_2017-08-23_
+
+### Features
+* Updated readme and composer dependency
+* Provided configuration to set proxy connection
+
 ## Version 2.0.0
 
 _2017-06-12_
