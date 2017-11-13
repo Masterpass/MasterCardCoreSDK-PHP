@@ -14,14 +14,14 @@ Pre-Requisites for using PHP MasterCard Core SDK:
 
 For Masterpass V6 : 
 
-For configuration and pre-requisites: https://developer.mastercard.com/documentation/masterpass-merchant-integration/
-For standard/express checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration/#tutorials
+For configuration and pre-requisites: https://developer.mastercard.com/documentation/masterpass-merchant-integration-v6
+For standard/express checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration-v6#tutorials
 
 For Masterpass V7:
 
-For configuration and pre-requisites https://developer.mastercard.com/documentation/masterpass-merchant-integration/v7
-For standard checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration/v7#standard-checkout 
- 
+For configuration and pre-requisites https://developer.mastercard.com/documentation/masterpass-merchant-integration-v7
+For standard checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration-v7#standard-checkout 
+For express checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration-v7#express-checkout 
  
 This phar can be downloaded from github directly or by using composer dependency.
  
@@ -41,7 +41,7 @@ This phar can be downloaded from github directly or by using composer dependency
  ```
  {
     "require": {
-      "masterpass/mpasscoresdk":"2.0.0"
+      "masterpass/mpasscoresdk":"2.1.0"
     }
  }
 ```
