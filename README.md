@@ -41,7 +41,7 @@ This phar can be downloaded from github directly or by using composer dependency
  ```
  {
     "require": {
-      "masterpass/mpasscoresdk":"2.1.0"
+      "masterpass/mpasscoresdk":"2.2.0"
     }
  }
 ```
