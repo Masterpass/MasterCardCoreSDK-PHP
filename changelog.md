@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 2.2.0
+
+_2018-01-24_
+
+### Changes
+* Minor defect fix
+* Oauth signature algorithm changed to "RSA-SHA256"
+
 ## Version 2.1.0
 
 _2017-11-13_
