@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 2.3.0
+
+_2018-08-24_
+
+### Changes
+* Provided utility to verfiy and decrypt encrypted payment data
+
 ## Version 2.2.0
 
 _2018-01-24_
